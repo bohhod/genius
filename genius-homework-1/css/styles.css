@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Play';
+    src: url('../fonts/Play-Bold.woff2') format('woff2'),
+         url('../fonts/Play-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Play';
+    src: url('../fonts/Play-Regular.woff2') format('woff2'),
+         url('../fonts/Play-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+         url('../fonts/Roboto-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+         url('../fonts/Roboto-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+:root {
+    --color-primary-white: #ffffff;
+    --color-primary-black: #011C44;
+    --color-primary-blue: #2B7FFF; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: var(--color-primary-white);
+    color: var(--color-primary-black);
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+/* header */
+.logo a {
+font-family: "Play", sans-serif;
+font-weight: 700;
+font-size: 22px;
+line-height: 0.95455;
+text-transform: capitalize;
+color: var(--color-primary-blue);
+}
+.menu a {
+font-size: 18px;
+color: var(--color-primary-black);
+}
+.menu a:hover {
+font-weight: 700;
+color: var(--color-primary-blue);
+}
+/* .contacts svg {
+fill: var(--color-primary-blue);
+fill: #0fde0f;
+} */
+.clinic {
+font-size: 18px;
+}
+h1 {
+font-family: "Play", sans-serif;
+font-weight: 700;
+font-size: 140px;
+line-height: 0.81429;
+text-transform: capitalize;
+color: var(--color-primary-blue);
+}
+button.call {
+font-weight: 700;
+font-size: 18px;
+color: var(--color-primary-white);
+background-color: var(--color-primary-blue);
+}
+.beauty-zone p {
+font-size: 12px;
+text-align: center;
+color: #4a4a4a;
+}
+/* Section 1 'About-us' */
+#about-us h2 {
+font-family: "Play", sans-serif;
+font-weight: 700;
+font-size: 64px;
+}
+#about-us h2 span {
+text-transform: capitalize;
+color: var(--color-primary-blue);
+}
+#about-us p {
+font-size: 22px;
+line-height: 1.72727;
+}
+/* Section 2 "why-us" */
+#why-us h2, #procedures h2, #contacts h2 {
+font-family: "Play", sans-serif;
+font-weight: 700;
+font-size: 64px;
+text-align: center;
+}
+#why-us h2 span, #procedures h2 span, #contacts h2 span {
+color: var(--color-primary-blue);
+}
+.answer {
+border-radius: 32px;
+width: 316px;
+height: 181px;
+box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
+background: var(--color-primary-white);
+}
+.answer p {
+font-size: 18px;
+line-height: 1.33333;
+text-align: center;
+color: #000;
+}
+/* Section 3 "Procedures" */
+.procedure p {
+font-size: 22px;
+line-height: 1.18182;
+text-align: center;
+color: var(--color-primary-white);
+}
+/* Footer */
+footer {
+    background-color: #011c44;;
+}
+.footer-item li {
+font-size: 16px;
+color: var(--color-primary-white);
+}
+.footer-item li a {
+color: var(--color-primary-white);
+}    
+footer a:hover {
+font-weight: 700;
+color: var(--color-primary-blue);
+}
+.footer-item .copy {
+font-size: 13px;
+color: #747272;
+}
+    
